@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1.- Pruebas en <GifGridItem />  - Debe de Mostrar <GifGridItem /> correctamente 1`] = `
+exports[` 1.- Pruebas en <GifGridItem />  * Debe de Mostrar <GifGridItem /> correctamente 1`] = `
 <div
   className="card animate__animated animate__fadeIn"
 >
-  <img />
+  <img
+    alt="One Punch"
+    src="https://www.giphy.com/id/algo"
+  />
   <p>
      
-    . 
+    One Punch
+     
   </p>
 </div>
 `;
