@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 4.- Pruebas en el <GifGridItem />   * Debe de Mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    One Punch Man
+     
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+     Cargando... 
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[` 4.- Pruebas en el <GifGridItem />   * Debe de Mostrar imagenes cuando se carge useFetchGifs() 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    One Punch Man
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="2022-01-10-2:03"
+      key="2022-01-10-2:03"
+      title="One Punch Man"
+      url="https://giphy.com/gif/aw0osae0ad21.gif"
+    />
+    <GifGridItem
+      id="2022-01-10-2:04"
+      key="2022-01-10-2:04"
+      title="One Punch Man Two"
+      url="https://giphy.com/gif/aw0osae0ad21.gif"
+    />
+  </div>
+</Fragment>
+`;

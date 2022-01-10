@@ -3,13 +3,15 @@ import { Fragment } from 'react/cjs/react.production.min';
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-const GifExpertApp = () => {
-    // const categories = ['One Punch Man', 'X - Men', 'Avengers']
-    const [categories, setCategories] = useState(['One Punch Man']);
+const GifExpertApp = ({ defaultCategories = []}) => {
+    // const [categories, setCategories] = useState(['One Punch Man']);
+    const [categories, setCategories] = useState(defaultCategories);
+
     // const handleAdd = () => {
     //     setCategories([ ...categories, 'Star Wars'])
     //     setCategories( cats => [...cats, 'Star Wars'])
     // }
+
     return (
         <Fragment>
             <h2 className='title'> GifExpertApp </h2>
